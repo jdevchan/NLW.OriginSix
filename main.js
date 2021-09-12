@@ -34,12 +34,12 @@ function changeHeaderWenScroll() {
 
 // TESTIMONIAL SLIDER SWIPER
 const swiper = new Swiper('.swiper-container', {
-  slidesPerview: 1,
+  slidesPerview: 3,
   pagination: {
     el: '.swiper-pagination'
   },
   mousewheel: true,
-  keyboard: true
+  keyboard: true,
 })
 
 // SCROLLREVEAL SUAVISAR EXIBIÇÃO DE ITENS
